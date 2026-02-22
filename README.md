@@ -71,7 +71,26 @@ cp -r commands/ ~/.claude/commands/
 
 ## Usage
 
-In Claude Code, run a slash command with your topic:
+### `/ideate` — Smart Router (Recommended)
+
+Just describe what you want to ideate on. The router detects your intent and launches the right team:
+
+```
+/ideate a CLI tool for managing dotfiles across machines
+→ routes to product ideation
+
+/ideate underserved needs in remote work tooling
+→ routes to opportunity discovery
+
+/ideate how to price and launch an AI code review bot
+→ routes to business strategy
+```
+
+If the intent is ambiguous, the router will ask you to choose a team.
+
+### Direct Team Commands
+
+You can also invoke a specific team directly:
 
 ```
 /ideate-product a CLI tool for managing dotfiles across machines
